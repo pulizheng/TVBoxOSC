@@ -39,7 +39,7 @@ public class DefaultConfig {
             }
         }
         if (withMy)
-            data.add(0, new MovieSort.SortData("my0", "我的"));
+            data.add(0, new MovieSort.SortData("my0", "https//github.com/pulizheng"));
         Collections.sort(data);
         return data;
     }
